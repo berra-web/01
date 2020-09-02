@@ -1,5 +1,3 @@
-
-user agent stylesheet
 script {
     display: none;
 }
@@ -19,7 +17,6 @@ html {
     line-height: 1.6;
     -webkit-text-size-adjust: 100%;
     background: #fff;
-    color: #555;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
