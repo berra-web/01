@@ -1,0 +1,208 @@
+body
+{
+  margin : 0px;
+  background-image: url(../img/pxfuel.com\ \(1\).jpg);
+  background-position: bottom right 45% ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#container
+{
+  width : 100%;
+  height: auto;
+  margin-top: 300px ;
+  background-color: white;
+  float: left;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+} 
+.clearfix:after {
+  clear: both;
+}
+.clearfix 
+{
+  zoom: 1; 
+}
+
+#header
+{
+  width : 100% ;
+  height : 200px ;
+  float : left ; 
+}
+
+#footer
+{
+  width: 100%;
+  height: auto;
+  clear: both;
+  text-align: center;
+  float: left;
+  border-top: 1px solid gray;
+  
+}
+.div-1
+{
+  color: white ;
+  text-decoration-line: none;
+  float: left;
+  margin-left: 10px;
+}
+
+ul
+{
+  list-style-type : none ;
+  height: 30px;
+  border-radius : 10px ; 
+  float: left;
+  padding: 10px ;
+  margin-left: 400px;	
+}
+li
+{
+  float : left;
+  margin : 5px  10px 15px 10px;
+  padding-left: 30px;
+
+}
+li a
+{
+  
+  color: white ;
+  text-decoration : none ;
+  font-size : large;
+  float : left ;
+  
+}
+li a:hover
+{
+  color : rgb(248, 244, 11) ;
+  font-size: 20px;
+}
+.h2
+{ 
+  margin-left: 350px;
+  margin-top: 300px;
+  color: white;
+  word-spacing : 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: initial;
+  font-size : 40px; 
+  font-weight: 400;
+} 
+.h3
+{ 
+  height: auto;
+  margin-left: 430px;
+  margin-top: 10px;
+  color: rgb(206, 10, 10);
+  word-spacing : 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size : 30px; 
+  font-variant: unset;
+  font-weight: 100;
+  line-height: 1.6;
+ 
+} 
+.dv1
+{
+  width: 47% ;
+  height: auto;
+  float: left;
+  margin-left: 1%;
+  margin-top: 0px;
+  margin-left: 1%;
+  margin-bottom: 20px;
+  
+}
+.dv2
+{
+  width: 49%;
+  height: auto;
+  float: left;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: 1%;
+  border-left: 1px solid gray;
+  
+}
+img
+{
+  float: right;
+  margin-right: 5px;
+  width: 350px;
+  height: 250px;
+  border-radius: 30px;
+  margin-bottom: 3px;
+}
+.text, .box
+{
+  list-style-type : none ;
+  line-height: 1.6;
+  font-size : 18px;
+  float : left ;
+  font-variant: unset;
+  font-style: inherit;
+  margin-left: 3px;
+  font-family: serif;
+  
+ 
+}
+.rd
+{
+  width: 80px ;
+  height: 50px;
+  float: left;
+  background-color: rgb(47, 226, 211);
+  margin : 5px;
+  padding-top: 4px;
+  border-radius: 30px; 
+}
+.h4
+{ 
+  float: center;
+  margin-top: 10px;
+  color: black;
+  word-spacing : 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: initial;
+  font-size : 30px; 
+  font-weight: 300;
+  line-height: 2;
+} 
+.div-f
+{
+  width: 100%;
+  height: auto;
+  float: left;
+  margin-bottom: 4px;
+  border-bottom: 1px solid rgb(15, 2, 2);
+
+}
+.div-f2
+{
+  width: 100%;
+  height: 300px;
+  margin-top: 300px;
+  background-color: indigo;
+}
+.box
+{
+  width: 24%;
+  height: 250px;
+  background-color: honeydew;
+  float: left;
+  margin: 5px ;
+  margin-left: 7px;
+  border-left: 1px solid rgb(63, 60, 60);
+  font-size : 20px;
+  border-radius: 10px;
+}
+
+
+ 

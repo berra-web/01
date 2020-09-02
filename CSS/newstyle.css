@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+#boxes div {
+    padding: 20px;
+}
+
+#container {
+    width: 960px;
+    /* border: 1px solid #333; */
+    margin: 20px auto;
+    /* margin-bottom: 500px; */
+}
+
+#header {
+    height: 100px;
+    margin-bottom: 10px;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+/* #content {
+    background-color: pink;
+    height: 300px
+} */
+
+#sidebar {
+    float: left;
+    width: 160px;
+    height: 300px;
+    margin-right: 20px;
+    border-right: 1px dotted #333;
+}
+
+#main-content {
+    float: left;
+    width: 780px;
+    height: 300px
+}
+
+
+#box1, #box2, #box3 {
+    width: 310px;
+    height: 100px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+#box1 {
+    background-color: green;
+    margin-right: 15px;
+}
+
+#box2 {
+    background-color: blue;
+    margin-right: 15px;
+}
+
+#box3 {
+    background-color: yellow;
+}
+
+#footer {
+    margin-top: 10px;
+    background-color: rgb(24, 24, 75);
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+
+#main-navigation ul,
+#sidebar-navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#main-navigation ul li a,
+#sidebar-navigation ul li a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#main-navigation ul li a:hover,
+#sidebar-navigation ul li a:hover {
+    background-color: rgb(119, 119, 214);
+    color: white;
+}
+
+#main-navigation > ul > li {
+    float: left;
+}
+
+.current {
+    background-color: rgb(24, 24, 75);
+    color: white;
+}
+
+#dropdown-btn {
+    position: relative;
+    /* display: inline-block; */
+}
+
+#dropdown-content {
+    display: none;
+    position: absolute;
+    top: 13px;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+#dropdown-btn:hover #dropdown-content {
+    display: block;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+} 
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
