@@ -1,6 +1,7 @@
 body
 {
   margin : 0px;
+  width : 960px;
   background-image: url(../img/pxfuel.com\ \(1\).jpg);
   background-position: bottom right 45% ;
   background-repeat: no-repeat;
@@ -8,11 +9,13 @@ body
 }
 #container
 {
-  width : 100%;
+  width : 960px;
   height: auto;
+  margin: 0px;
   margin-top: 300px ;
   background-color: white;
   float: left;
+  background-image: linear-gradient(to bottom right, red, yellow);
 }
 
 .clearfix:before,
@@ -30,14 +33,14 @@ body
 
 #header
 {
-  width : 100% ;
+  width : 960px;
   height : 200px ;
   float : left ; 
 }
 
 #footer
 {
-  width: 100%;
+  width : 960px;
   height: auto;
   clear: both;
   text-align: center;
@@ -56,11 +59,10 @@ body
 ul
 {
   list-style-type : none ;
+  width: 550px;
   height: 30px;
-  border-radius : 10px ; 
-  float: left;
-  padding: 10px ;
-  margin-left: 400px;	
+  padding: 5px ;
+  margin: 20px 700px 10px  ;
 }
 li
 {
@@ -111,7 +113,7 @@ li a:hover
 } 
 .dv1
 {
-  width: 47% ;
+  width: 450px ;
   height: auto;
   float: left;
   margin-left: 1%;
@@ -122,7 +124,7 @@ li a:hover
 }
 .dv2
 {
-  width: 49%;
+  width: 450px;
   height: auto;
   float: left;
   margin-top: 0px;
@@ -177,7 +179,7 @@ img
 } 
 .div-f
 {
-  width: 100%;
+  width: 960px;
   height: auto;
   float: left;
   margin-bottom: 4px;
@@ -186,7 +188,7 @@ img
 }
 .div-f2
 {
-  width: 100%;
+  width: 960px;
   height: 300px;
   margin-top: 300px;
   background-color: indigo;
