@@ -1,23 +1,44 @@
 body
 {
   margin : 0px;
-  width : 960px;
+  width : 100%;
+}
+#container
+{
+  width : 1349px;
+  height: 800px;
+  margin: 0 auto 0;
   background-image: url(../img/pxfuel.com\ \(1\).jpg);
   background-position: bottom right 45% ;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-#container
+#header
 {
-  width : 960px;
-  height: auto;
-  margin: 0px;
-  margin-top: 300px ;
-  background-color: white;
-  float: left;
-  background-image: linear-gradient(to bottom right, red, yellow);
+  width : 1300px;
+  height : 200px ;
+  float : left ; 
 }
 
+#navigation
+{
+  width : 1349px ;
+	height : 600px ;
+  margin-top: 300px;
+  background-color: teal;
+  float: left;
+  background-image:  repeating-linear-gradient(24deg,white,black 50%); 
+}
+#footer
+{
+  width : 1349px;
+  height: auto;
+  clear: both;
+  text-align: center;
+  float: left;
+  border-top: 1px solid gray;
+  
+}
 .clearfix:before,
 .clearfix:after {
   content: "";
@@ -30,32 +51,16 @@ body
 {
   zoom: 1; 
 }
-
-#header
-{
-  width : 960px;
-  height : 200px ;
-  float : left ; 
-}
-
-#footer
-{
-  width : 960px;
-  height: auto;
-  clear: both;
-  text-align: center;
-  float: left;
-  border-top: 1px solid gray;
-  
-}
 .div-1
 {
   color: white ;
   text-decoration-line: none;
   float: left;
   margin-left: 10px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
 }
-
 ul
 {
   list-style-type : none ;
@@ -63,22 +68,29 @@ ul
   height: 30px;
   padding: 5px ;
   margin: 20px 700px 10px  ;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;  
+}
+@keyframes example 
+{
+  0% {right:0px; left:70px;}
+  100% { left:0px; right:70px;}
 }
 li
 {
-  float : left;
+  float: left;
   margin : 5px  10px 15px 10px;
   padding-left: 30px;
-
 }
+
 li a
 {
   
   color: white ;
   text-decoration : none ;
   font-size : large;
-  float : left ;
-  
+  float : left ; 
 }
 li a:hover
 {
@@ -87,21 +99,21 @@ li a:hover
 }
 .h2
 { 
-  margin-left: 350px;
+  text-align: center;
   margin-top: 300px;
   color: white;
   word-spacing : 0px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: initial;
-  font-size : 40px; 
-  font-weight: 400;
+  font-size : 35px; 
+  font-weight: 300;
 } 
 .h3
 { 
   height: auto;
-  margin-left: 430px;
-  margin-top: 10px;
-  color: rgb(206, 10, 10);
+  text-align: center;
+  margin-top: 250px;
+  color: rgb(209, 209, 209);
   word-spacing : 0px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
@@ -111,37 +123,6 @@ li a:hover
   line-height: 1.6;
  
 } 
-.dv1
-{
-  width: 450px ;
-  height: auto;
-  float: left;
-  margin-left: 1%;
-  margin-top: 0px;
-  margin-left: 1%;
-  margin-bottom: 20px;
-  
-}
-.dv2
-{
-  width: 450px;
-  height: auto;
-  float: left;
-  margin-top: 0px;
-  margin-bottom: 20px;
-  margin-left: 1%;
-  border-left: 1px solid gray;
-  
-}
-img
-{
-  float: right;
-  margin-right: 5px;
-  width: 350px;
-  height: 250px;
-  border-radius: 30px;
-  margin-bottom: 3px;
-}
 .text, .box
 {
   list-style-type : none ;
@@ -155,31 +136,45 @@ img
   
  
 }
+.textdiv
+{
+  list-style-type: none;
+  text-align: left;
+  height: auto;
+  color: rgb(0, 0, 0);
+  font-weight: 50;
+  margin-left: 5px;
+}
 .rd
 {
   width: 80px ;
   height: 50px;
   float: left;
-  background-color: rgb(47, 226, 211);
-  margin : 5px;
-  padding-top: 4px;
+  background-image: linear-gradient(-90deg, rgb(255, 255, 255), rgb(0, 0, 0));	
+  margin : 7px;
+  padding-top: 10px;
   border-radius: 30px; 
 }
-.h4
+.h4, h5
 { 
   float: center;
   margin-top: 10px;
   color: black;
   word-spacing : 0px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-style: initial;
   font-size : 30px; 
   font-weight: 300;
   line-height: 2;
 } 
+.h5
+{
+  font-size : 30px; 
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+  margin: 5px;
+}
 .div-f
 {
-  width: 960px;
+  width: 1349px;
   height: auto;
   float: left;
   margin-bottom: 4px;
@@ -188,14 +183,14 @@ img
 }
 .div-f2
 {
-  width: 960px;
-  height: 300px;
+  width: 1349px;
+  height: 400px;
   margin-top: 300px;
-  background-color: indigo;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(25, 28, 36));
 }
 .box
 {
-  width: 24%;
+  width: 323px;
   height: 250px;
   background-color: honeydew;
   float: left;
@@ -205,6 +200,41 @@ img
   font-size : 20px;
   border-radius: 10px;
 }
-
+img
+{
+  width: 200px;
+  height: 150px;
+  border-radius: 30px;
+}
+.media1, .media2, .media3, .media4
+{
+  width: 160px;
+  height: 130px;
+  float: left;
+  margin: 5px ;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size : 20px;
+  border-radius: 50px;
+}
+.media2
+{
+  margin-left: 150px;
+}
+.media3
+{
+  margin-left: 170px;
+}
+.media4
+{
+  margin-left: 150px;
+}
+.media1:hover,.media2:hover,
+.media3:hover, .media4:hover
+{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
 
  

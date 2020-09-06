@@ -1,99 +1,191 @@
-#body
+body
 {
   margin : 0px;
   width: 100%;
 }
 #container
 {
-  width : 100%;
-  height: auto;
+  width : 1349px;
+  height: 1400px;
   margin : 0 auto 0 ;
-  background-color: violet;
-
-}
-.clearfix
-{
-  overflow: hidden;
+  background-image: url(../img/pxfuel.com\ \(19\).jpg);
+  background-position: top ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 #header
 {
-  width : 100% ;
-  height : 100px ;
-  float : left ; 
+  width : 1349px ;
+  height : 200px ;
+  float : left ;
 }
 #navigation
 {
-  width : 100% ;
-	height : 400px ;
-  margin-top: 100px;
-  background-color: teal;
-  float: left;
-  margin-top: 0px;
-  background-image: url(../img/Website-Design-Background-1.jpg);	
-  background-position: bottom right 10% ;
-  background-repeat: no-repeat;
-  
-  
-}
-
-#section
-{
-	width : 60%;
-  height : auto;
-	position : relative ;
-	background-color : white;
-  border-radius : 10px ;
+  width : 1349px ;
+	height : 800px ;
   margin-top: 300px;
-  left : 270px ;
-  border : 0px solid rgb(12, 0, 0) ;
-	z-index : 10 ;
-}
-	
-	   
+  margin-bottom: 0px;
+  float: left;
+  
+}	 
 #footer
 {
-  width: 100%;
-  height: 200px;
-  background-color : blue;
-  clear: both;
-  text-align : center;
+  float: left;
+  width: 1349px;
+  height: 150px;
+  background-color: rgb(36, 32, 32);;
+  border-top: 2px solid rgb(0, 0, 0);
 }
+.nav1
+{
+  float: left;
+  width: 350px;
+  height: 250px;
+  margin-left: 120px; 
+  margin-top: 75px;
+  border-radius: 30px;
+  background-color: rgb(248, 244, 11);
+  box-shadow: 35px 35px 35px #000000;
+}
+
+.nav2
+{
+  float: left;
+  width: 350px;
+  height: 250px;
+  margin-left: 300px ;
+  margin-top: 75px;
+  border-radius: 30px;
+  background-color: rgb(248, 244, 11);
+  box-shadow: 35px 35px 35px #000000;
+  
+}
+.nav3
+{
+  clear: left;
+  width: 350px;
+  height: 250px;
+  margin-left: 450px ;
+  margin-top: 450px;
+  border-radius: 30px;
+  background-color: rgb(248, 244, 11);
+  box-shadow: 35px 35px 35px #000000;
+}
+img
+{
+  width: 350px;
+  height: 250px;
+  border-radius: 30px;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+} 
+.clearfix:after {
+  clear: both;
+}
+.clearfix 
+{
+  zoom: 1; 
+}
+
 .div-1
 {
-  color: black;
+  color:rgb(255, 255, 255) ;
   text-decoration-line: none;
   float: left;
   margin-left: 10px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
 }
 
 ul
 {
   list-style-type : none ;
+  width: 550px;
   height: 30px;
-  border-radius : 10px ; 
-  float: left;
-  padding: 10px ;
-  margin-left: 300px;	
+  padding: 5px ;
+  margin: 20px 700px 10px  ;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;  
+}
+@keyframes example 
+{
+  0% {right:0px; left:70px;}
+  100% { left:0px; right:70px;}
 }
 li
 {
-  float : left;
+  float: left;
   margin : 5px  10px 15px 10px;
   padding-left: 30px;
-
 }
+
 li a
 {
   
-  color : black ;
+  color:rgb(255, 255, 255) ;
   text-decoration : none ;
   font-size : large;
-  float : left ;
-  
+  float : left ; 
 }
 li a:hover
 {
-  color : rgba(102, 255, 0, 0.918) ;
+  color : black ;
+  font-size: 20px;
 }
+.h2
+{ 
+  margin-left: 350px;
+  margin-top: 300px;
+  color: rgb(255, 255, 255);
+  word-spacing : 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: initial;
+  font-size : 40px; 
+  font-weight: 400;
+  display: block;
+} 
 
-	 
+.h4
+{ 
+  margin-left: 480px;
+  color: #dddddd;	
+  word-spacing : 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: initial;
+  font-size : 20px; 
+  font-weight: 400;
+} 
+.form
+{
+  float: left;
+  width: 900px;
+  height: auto;
+  margin-left: 200px;
+
+}
+input
+{
+  height: 40px;
+  float: left;
+  height: 60px;
+  width: 250px;
+  margin-top: 5px;
+  margin-left: 30px;
+  border-radius: 15px;
+}
+.input3
+{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  width: 150px;
+  margin-left: 50px;
+  height: 60px;
+  border-radius: 15px;
+}
